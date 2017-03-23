@@ -13,7 +13,7 @@ public class GeraContato {
         List<Contato> contatos = new ArrayList<>();
         contatos.add(new Contato("João", "(11) 1111-1111", "Hello There, I'm using FIAP ZAP", R.drawable.person1));
         contatos.add(new Contato("Maria", "(11) 1111-1111", "Olá", R.drawable.person2));
-        contatos.add(new Contato("Maria", "(11) 1111-1111", "Olá", R.drawable.person3));
+        contatos.add(new Contato("Vitoria", "(11) 1111-1111", "Olá", R.drawable.person3));
         return contatos;
     }
 }
