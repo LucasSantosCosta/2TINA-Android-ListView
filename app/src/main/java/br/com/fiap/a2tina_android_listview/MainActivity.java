@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         List<Contato> contatos = GeraContato.listaContatos();
-
+        ContatoAdapter  contatoAdapter = new ContatoAdapter(this, contatos);
         lstContatos = (ListView) findViewById(R.id.lstContatos);
+        lstContatos.setAdapter(contatoAdapter);
     }
 }
